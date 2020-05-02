@@ -1,0 +1,29 @@
+html { 
+    background: url("https://cdn.clipart.email/b2c82a893170af07075ea5dca5c1d3e7_blue2-images-blue-cloud-background-hd-wallpaper-and-background-_1920-986.jpeg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    cursor: pointer;
+}
+.title {
+    font-family: 'Coda Caption', sans-serif;
+    width: 800px;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+    font-size: 30px;
+}
+.imoji {
+    text-align: center;
+    font-size: 60px;
+    width: fit-content;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 35%;
+    left: 50%;
+    
+}
+::selection {
+    background: transparent;
+}
